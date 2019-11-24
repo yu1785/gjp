@@ -15,7 +15,7 @@ public class JDBCUtils {
     static {
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/gjp");
-        dataSource.setUsername("yu1785");
+        dataSource.setUsername("root");
         dataSource.setPassword("199785");
         dataSource.setMaxActive(10);
         dataSource.setMaxIdle(5);

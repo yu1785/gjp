@@ -7,15 +7,15 @@ public class ZhangWu {
     private double money;
     private String zhanghu;
     private String createtime;
-    private String deccription;
+    private String description;
 
-    public ZhangWu(int zwid, String flname, double money, String zhanghu, String createtime, String deccription) {
+    public ZhangWu(int zwid, String flname, double money, String zhanghu, String createtime, String description) {
         this.zwid = zwid;
         this.flname = flname;
         this.money = money;
         this.zhanghu = zhanghu;
         this.createtime = createtime;
-        this.deccription = deccription;
+        this.description = description;
     }
 
     public ZhangWu() {
@@ -61,12 +61,12 @@ public class ZhangWu {
         this.createtime = createtime;
     }
 
-    public String getDeccription() {
-        return deccription;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDeccription(String deccription) {
-        this.deccription = deccription;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     @Override
@@ -77,7 +77,7 @@ public class ZhangWu {
                 ", money=" + money +
                 ", zhanghu='" + zhanghu + '\'' +
                 ", createtime='" + createtime + '\'' +
-                ", deccription='" + deccription + '\'' +
+                ", deccription='" + description + '\'' +
                 '}';
     }
 }
